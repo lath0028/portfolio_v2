@@ -2,17 +2,14 @@ import React from "react";
 import Logo from "../assets/logo.jpg";
 import { FaReact, FaNodeJs, FaSass } from "react-icons/fa";
 import {
-  SiNextDotJs,
   SiTypescript,
   SiJavascript,
   SiJava,
   SiPython,
   SiMongodb,
   SiPostgresql,
-  SiRedux,
   SiJest,
-  SiGit,
-  SiFlask
+  SiGit
 } from "react-icons/si";
 
 function About() {
@@ -67,18 +64,6 @@ function About() {
             </p>
             <p className="skill">
               <span>
-                <SiRedux />
-              </span>
-              Redux
-            </p>
-            <p className="skill">
-              <span>
-                <SiNextDotJs />
-              </span>
-              NextJs
-            </p>
-            <p className="skill">
-              <span>
                 <SiJest />
               </span>
               Jest
@@ -118,12 +103,6 @@ function About() {
                 <SiPython />
               </span>
               Python
-            </p>
-            <p className="skill">
-              <span>
-                <SiFlask />
-              </span>
-              Flask
             </p>
             <p className="skill">
               <span>

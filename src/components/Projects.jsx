@@ -1,6 +1,5 @@
 import React from "react";
 import Book from "../assets/book.png";
-import Think from "../assets/e-commerce1.png";
 import Issue from "../assets/MusicXML.png";
 
 function Projects() {

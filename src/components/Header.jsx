@@ -1,8 +1,10 @@
 import React from "react";
 import DarkMode from "./darkmode";
+import Resume from "../assets/PrashantCV-JAN.pdf";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import {GrDocumentPdf} from "react-icons/gr";
 
 function Header() {
   return (
@@ -12,6 +14,15 @@ function Header() {
         <p>p.lathiya93@gmail.com</p>
       </div>
       <div className="header__right">
+        <span className="linkedin">
+          <a
+            href={Resume}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GrDocumentPdf />
+          </a>
+        </span>
         <span className="linkedin">
           <a
             href="https://www.linkedin.com/in/prashant-lathiya-76750a70/"
