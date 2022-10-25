@@ -11,7 +11,7 @@ function Main() {
         </span>
       </h2>
       <h1 className="title">
-        I am Manager At Kentucky Fried Chicken.
+        I am a Freelancer working as a Java Back-end Developer.
       </h1>
       <h5 style={{ marginTop: "20px", textAlign: "center" }}>
         Actively Looking for a full-time oppurtunities

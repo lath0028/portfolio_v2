@@ -9,7 +9,11 @@ import {
   SiMongodb,
   SiPostgresql,
   SiJest,
-  SiGit
+  SiGit,
+  SiOracle,
+  SiMysql,
+  SiCsharp,
+  SiSelenium
 } from "react-icons/si";
 
 function About() {
@@ -30,7 +34,7 @@ function About() {
         
           <p>
             As for my future, I am seeking to work as a Full Stack Developer |
-            Backend Developer | Software Developer with a diverse team.
+            Backend Developer | Software Developer | Database Developer with a diverse team.
           </p>
         </div>
       </div>
@@ -106,9 +110,27 @@ function About() {
             </p>
             <p className="skill">
               <span>
-                <SiPython />
+                <SiSelenium />
               </span>
               Selenium
+            </p>
+            <p className="skill">
+              <span>
+                <SiOracle />
+              </span>
+              Oracle
+            </p>
+            <p className="skill">
+              <span>
+                <SiMysql />
+              </span>
+              MySQL
+            </p>
+            <p className="skill">
+              <span>
+                <SiCsharp />
+              </span>
+              C#
             </p>
           </div>
         </div>
