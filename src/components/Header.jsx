@@ -1,6 +1,6 @@
 import React from "react";
 import DarkMode from "./darkmode";
-import Resume from "../assets/CVGR.pdf";
+import Resume from "../assets/CVG.pdf";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
